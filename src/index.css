@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  width: 100%;
+  height: 100%;
+
+  background-color: #111315;
+  background-image: url("./images/bg-cafe.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+  color: #fef7ee;
+}
+@media (max-width: 768px) {
+  body {
+    background-position: top;
+    background-size: 100% 200px;
+
+    width: auto;
+  }
+}
