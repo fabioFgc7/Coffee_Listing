@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { CoffeeShopp } from "../types";
 import CoffeeList from "./CoffeeList";
 
-export const CoffesHome = () => {
+export const CoffeeHome = () => {
   const [coffeeProducts, setCoffeeProducts] = useState<CoffeeShopp[]>([]);
   useEffect(() => {
     apiFetch();
